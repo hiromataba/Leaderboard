@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list
+# LeaderBoard
 
-> To Do List is a website that helps you manage your tasks and projects, You can add Tasks to existing projects, create new projects, delete projects, modify or delete your tasks for a particular project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-![todo](https://user-images.githubusercontent.com/75126481/125755640-f04283fe-91d5-4f8f-a852-de02e10c1d04.png)
+![leaderboard](https://user-images.githubusercontent.com/75126481/127176253-a6a1fc9f-4195-4ec5-b7e2-acce44cc966c.png)
 
 
 
@@ -18,10 +18,10 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. Copy this link `https://github.com/hiromataba/Todo-List-App` and type git clone `https://github.com/hiromataba/Todo-List-App` in your terminal to get and run this project locally
+1. Copy this link `https://github.com/hiromataba/Leaderboard` and type git clone `https://github.com/hiromataba/Leaderboard` in your terminal to get and run this project locally
 2. Run the live server or simply open index.html in dist folder with your browser.
 
-## Authors
+## Author
 
 👤 **Aganze Mataba Henri**
 
