@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todollistapk</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  <script defer src="main.bundle.js"></script></head>
+  <body>
+    <div class="container">
+     <div class="flex">
+      <header class="header">
+        <p>Today's Tasks</p>
+       <div class="clearall">
+        <i class="uil uil-sync refresh"></i>
+       </div>
+      </header>
+
+      <div class="content">
+        <form id="form">
+          <div class="add-item">
+            <input type="text" name="input" id="addlist" placeholder="Add to your list">
+          </div>
+        </form>
+
+        <ul class="list">
+
+        </ul>
+
+        <button type="submit" id="clear-all">Clear All completed</button>
+
+      </div>
+     </div>
+    </div>
+  
+  </body>
+</html>
