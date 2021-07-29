@@ -24,6 +24,7 @@ main {
 }
 
 .main-title {
+  margin: 0;
   font-weight: 500;
   font-size: 45px;
   color: #363c48;
@@ -67,7 +68,9 @@ main {
 }
 
 .score {
-  background-color: #f28a65;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f27a69;
   width: 50%;
 }
 
@@ -121,9 +124,14 @@ main {
 }
 
 .form-div {
-  background-color: #f28267;
-  width: 40%;
+  background-color: #f08064;
+  width: 35%;
   padding: 20px;
+  border-radius: 20px;
+}
+
+.form-title {
+  color: #363c48;
 }
 
 .form input {
@@ -159,8 +167,35 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  border: 2px solid rgb(54, 54, 54);
+  border-radius: 10px;
+  border: none;
+  background-color: #363c48;
+  color: #fff;
   width: 120px;
   height: 40px;
-  box-shadow: 1px 2px 4px black;
+  box-shadow: 1px 2px 4px #f28766;
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin: 20px 0;
+  }
+
+  .score {
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .score-name {
+    font-size: 18px;
+  }
+
+  .form-div {
+    margin: 30px 0;
+    width: 90%;
+  }
 }
