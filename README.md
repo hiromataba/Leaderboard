@@ -25,7 +25,8 @@ To get a local copy up and running follow these simple example steps.
 2. In your terminal run:
 - `git clone https://github.com/hiromataba/Leaderboard` 
 3. Run `npm install` 
-4. Run the live server or simply open index.html in dist folder with your browser.
+4. Run `npm start`
+5. Run the live server or simply open index.html in dist folder with your browser.
 
 ## Author
 
