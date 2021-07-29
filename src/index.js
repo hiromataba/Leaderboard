@@ -12,7 +12,7 @@ const displayScores = (list, res) => {
   }
   list.innerHTML = '';
   scores.forEach((score) => {
-    list.innerHTML += `<li class="users"><div class="user-img"><img src="/img/mario.png" alt="User Avatar"></div><span class="score-name">${score[0]}</span><span>${score[1]}</span></li>`;
+    list.innerHTML += `<li class="users"><div class="user-img"><img src="./img/mario.png" alt="User Avatar"></div><span class="score-name">${score[0]}</span><span>${score[1]}</span></li>`;
   });
   if (scores.length > 5) { list.classList.add('scroll'); }
 };
