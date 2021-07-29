@@ -2,10 +2,10 @@
 
 # LeaderBoard
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) service.
 
 
-![leaderboard](https://user-images.githubusercontent.com/75126481/127176253-a6a1fc9f-4195-4ec5-b7e2-acce44cc966c.png)
+![leaderbord](https://user-images.githubusercontent.com/75126481/127534445-b76c25b3-dcaf-4bbd-829f-62c3379db64d.png)
 
 
 ## Built With
@@ -18,8 +18,11 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. Copy this link `https://github.com/hiromataba/Leaderboard` and type git clone `https://github.com/hiromataba/Leaderboard` in your terminal to get and run this project locally
-2. Run the live server or simply open index.html in dist folder with your browser.
+1. Copy this link `https://github.com/hiromataba/Leaderboard`
+2. In your terminal run:
+- `git clone https://github.com/hiromataba/Leaderboard` 
+3. Run `npm install` 
+4. Run the live server or simply open index.html in dist folder with your browser.
 
 ## Author
 

@@ -139,6 +139,7 @@ main {
   outline: none;
   background-color: transparent;
   border: none;
+  height: 100%;
   font-size: 18px;
   padding-left: 10px;
 }
@@ -197,5 +198,38 @@ main {
   .form-div {
     margin: 30px 0;
     width: 90%;
+  }
+
+  .main-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-score {
+    margin: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+
+  .refresh-btn {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .header-icon {
+    font-size: 22px;
+  }
+
+  .recent-score {
+    font-weight: 100;
+    font-size: 17px;
+  }
+
+  .main-title {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }

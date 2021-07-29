@@ -1,6 +1,6 @@
 import './style.css';
 
-const API_KEY = 'tXqnYG38U2D0ZNX11QOL';
+const API_KEY = 'VpeHbfsqRsSrv6vIdt1r';
 const URI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${API_KEY}/scores`;
 const resultUl = document.querySelector('.result-ul');
 
@@ -49,6 +49,7 @@ const sendData = async () => {
   submitScore.addEventListener('submit', (e) => {
     e.preventDefault();
     postData(nameInput.value, scoreInput.value);
+    submitScore.reset();
   });
 };
 
