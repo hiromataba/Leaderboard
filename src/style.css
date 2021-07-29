@@ -116,6 +116,14 @@ main {
   width: 120px;
   height: 40px;
   box-shadow: 1px 2px 4px #363c48;
+  transition: all 0.5s;
+}
+
+.refresh:hover {
+  transition: all 0.5s;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #f28766;
 }
 
 .result-ul {
@@ -175,6 +183,14 @@ main {
   width: 120px;
   height: 40px;
   box-shadow: 1px 2px 4px #f28766;
+  transition: all 0.5s;
+}
+
+.submit-score:hover {
+  transition: all 0.5s;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #363c48;
 }
 
 @media only screen and (max-width: 1024px) {

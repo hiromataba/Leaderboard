@@ -1,6 +1,6 @@
 import './style.css';
 
-const API_KEY = 'VpeHbfsqRsSrv6vIdt1r';
+const API_KEY = 'tuQGWPnETat9AwQIkFof';
 const URI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${API_KEY}/scores`;
 const resultUl = document.querySelector('.result-ul');
 
