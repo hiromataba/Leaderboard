@@ -193,6 +193,18 @@ main {
   color: #363c48;
 }
 
+footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  background-color: #f27969;
+  height: 50px;
+}
+
 @media only screen and (max-width: 1024px) {
   main {
     margin: 20px 0;
@@ -212,7 +224,8 @@ main {
   }
 
   .form-div {
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 70px;
     width: 90%;
   }
 
@@ -223,6 +236,11 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    height: 100%;
+    width: 90%;
+  }
+
   .header-score {
     margin: 10px;
     flex-wrap: wrap;
@@ -234,6 +252,15 @@ main {
     justify-content: flex-end;
   }
 
+  .score {
+    margin-top: 10px;
+  }
+
+  .refresh {
+    width: 100px;
+    font-size: 17px;
+  }
+
   .header-icon {
     font-size: 22px;
   }
@@ -241,6 +268,10 @@ main {
   .recent-score {
     font-weight: 100;
     font-size: 17px;
+  }
+
+  .score-name {
+    padding-left: 10px;
   }
 
   .main-title {
