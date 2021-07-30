@@ -1,6 +1,6 @@
 import './style.css';
 
-const API_KEY = '7SMyeUAGzctF1jhjbfXl';
+const API_KEY = 'tuQGWPnETat9AwQIkFof';
 const URI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${API_KEY}/scores`;
 const resultUl = document.querySelector('.result-ul');
 
@@ -12,7 +12,7 @@ const displayScores = (list, res) => {
   }
   list.innerHTML = '';
   scores.forEach((score) => {
-    list.innerHTML += `<li>${score[0]}: ${score[1]}</li>`;
+    list.innerHTML += `<li class="users"><div class="user-img"><img src="../img/mario.png" alt="User Avatar"></div><span class="score-name">${score[0]}</span><span>${score[1]}</span></li>`;
   });
   if (scores.length > 5) { list.classList.add('scroll'); }
 };
@@ -49,6 +49,7 @@ const sendData = async () => {
   submitScore.addEventListener('submit', (e) => {
     e.preventDefault();
     postData(nameInput.value, scoreInput.value);
+    submitScore.reset();
   });
 };
 

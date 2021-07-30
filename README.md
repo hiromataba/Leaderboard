@@ -1,11 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# LeaderBoard
+# Leaderboard
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) service.
 
+# Live demo
 
-![leaderboard](https://user-images.githubusercontent.com/75126481/127176253-a6a1fc9f-4195-4ec5-b7e2-acce44cc966c.png)
+[Live Demo](https://hiromataba.github.io/Leaderboard/dist/)
+
+![leaderboard](https://user-images.githubusercontent.com/75126481/127539466-3a6f6835-ccfb-4feb-b7c9-e7dc657bce00.png)
 
 
 ## Built With
@@ -18,8 +21,12 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. Copy this link `https://github.com/hiromataba/Leaderboard` and type git clone `https://github.com/hiromataba/Leaderboard` in your terminal to get and run this project locally
-2. Run the live server or simply open index.html in dist folder with your browser.
+1. Copy this link `https://github.com/hiromataba/Leaderboard`
+2. In your terminal run:
+- `git clone https://github.com/hiromataba/Leaderboard` 
+3. Run `npm install` 
+4. Run `npm start`
+5. Run the live server or simply open index.html in dist folder with your browser.
 
 ## Author
 
